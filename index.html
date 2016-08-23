@@ -10,23 +10,32 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 
-	<link href="modal-videos.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="style.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
 
+
 <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400,600|Poppins:300,400,500,600,700" rel="stylesheet">
+
+<link rel="stylesheet" href="videoGallery.css">
+
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src="js/modal-videos.js"></script>
 	<script	src="js/jquery.smint.js" type="text/javascript" ></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-	<script type="text/javascript"> new WOW().init(); </script>
+
+<script src="js/videoGallery.js"></script>
+
 
 	<script type="text/javascript">
+	//---------------------------------------------------------
+
+new WOW().init();
+//---------------------------------------------------------
+
 
 	$(document).ready( function() {
 	    $('.subMenu').smint({
@@ -45,6 +54,7 @@
 	});
 
 	</script>
+
 
 </head>
 <body>
@@ -122,99 +132,89 @@
 <div class="padBoy col-md-12" style="background-color:white"></div>
 
 <div class="parallax-window col-md-12 s2" style="text-align:center;background-color:white;">
-
 	<h1 class="col-md-12 head">Work</h1>
 
-		<div class="col-md-4 wow fadeInUp" title="Marriot Autograph">
-			<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=9c3gMJLXDRs">
-					<img class="workThumb" src="img/portfolio/marriot.jpg"/>
-					<div class="title"><h1 class="newcenter">MARRIOT AUTOGRAPH</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">Marriot Autograph</h4>
-		</div>
-
-		<div class="col-md-4  wow fadeInUp" title="Discovery Life Network">
-						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=MpJ0u4BSXp0">
-				<img class="workThumb" src="img/portfolio/discovery_life.jpg"/>
-				<div class="title"><h1 class="newcenter">DISCOVERY LIFE NETWORK</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">Discovery Life Network</h4>
-		</div>
 
 
-		<div class="col-md-4  wow fadeInUp" title="Channel Communications">
-						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=5G8410a2iX8">
-				<img class="workThumb" src="img/portfolio/channel_communications.jpg"/>
-				<div class="title"><h1 class="newcenter">CHANNEL COMMUNICATIONS</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">Channel Communications</h4>
-		</div>
 
-		<div class="col-md-4 wow fadeInUp one" title="IDEACAST">
-						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=Bvxf_5BvH1U">
-				<img class="workThumb" src="img/portfolio/ideacast.jpg"/>
-				<div class="title"><h1 class="newcenter">IDEACAST</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">IDEACAST</h4>
-		</div>
+<!--	<button id="open-popup">Open popup</button>  -->
 
-		<div class="col-md-4 wow fadeInUp one " title="Discovery Channel Digital">
-						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=tAAiRQWVdoY">
-				<img class="workThumb" src="img/portfolio/discovery_digital.jpg"/>
-				<div class="title"><h1 class="newcenter">DISCOVERY CHANNEL DIGITAL</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">Discovery Channel Digital</h4>
-		</div>
+	<div id ="galleyOne_Marriot" class="col-md-4 wow fadeInUp" title="Marriot Autograph">
+		<div class="imgWrap">
+				<img class="workThumb" src="img/portfolio/marriot.jpg"/>
+				<div class="title"><h1 class="newcenter">MARRIOT AUTOGRAPH</h1></div>
+	</div>
+		<h4 class="mobileOnly">Marriot Autograph</h4>
+	</div>
 
-		<div class="col-md-4 wow fadeInUp one " title="Capitol Crossing Development">
-						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=R79TA_nVzNQ">
-				<img class="workThumb" src="img/portfolio/capitol_crossing.jpg"/>
-				<div class="title"><h1 class="newcenter">CAPITOL CROSSING DEVELOPMENT</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">Capitol Crossing Development</h4>
-		</div>
 
-		<div class="col-md-4 wow fadeInUp two " title="Discovery Channel Branded Entertainment">
-						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?time_continue=1&v=BKzibVER7WA">
-				<img class="workThumb" src="img/portfolio/discovery_branded.jpg"/>
-				<div class="title"><h1 class="newcenter">DISCOVERY CHANNEL BRANDED ENTERTAINMENT</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">Discovery Channel Branded Entertainment</h4>
-		</div>
+	<div id ="galleyTwo_Discovery" class="col-md-4  wow fadeInUp" title="Discovery Life Network">
+					<div class="imgWrap">
+			<img class="workThumb" src="img/portfolio/discovery_life.jpg"/>
+			<div class="title"><h1 class="newcenter">DISCOVERY LIFE NETWORK</h1></div>
+	</div>
+		<h4 class="mobileOnly">Discovery Life Network</h4>
+	</div>
 
-		<div class="col-md-4 wow fadeInUp two " title="Manufacturing Institute">
-						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=mBLLWE2WIq8">
-				<img class="workThumb" src="img/portfolio/manufacturing.jpg"/>
-				<div class="title"><h1 class="newcenter">MANUFACTURING INSTITUTE</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">Manufacturing Institute</h4>
-		</div>
 
-		<div class="col-md-4 wow fadeInUp two " title="Discovery Communications">
-						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=C1BFpYJzXpc">
-				<img class="workThumb" src="img/portfolio/discovery_communications.jpg"/>
-				<div class="title"><h1 class="newcenter">DISCOVERY COMMUNICATIONS</h1></div>
-			</a>
-		</div>
-			<h4 class="mobileOnly">Discovery Communications</h4>
-		</div>
+<div id="galleyThree_ChannelCommunications" class="col-md-4  wow fadeInUp" title="Channel Communications">
+				<div class="imgWrap">
+		<img class="workThumb" src="img/portfolio/channel_communications.jpg"/>
+		<div class="title"><h1 class="newcenter">CHANNEL COMMUNICATIONS</h1></div>
+</div>
+	<h4 class="mobileOnly">Channel Communications</h4>
+</div>
+
+<div id="galleyFour_Ideacast" class="col-md-4 wow fadeInUp one" title="IDEACAST">
+				<div class="imgWrap">
+		<img class="workThumb" src="img/portfolio/ideacast.jpg"/>
+		<div class="title"><h1 class="newcenter">IDEACAST</h1></div>
+</div>
+	<h4 class="mobileOnly">IDEACAST</h4>
+</div>
+
+
+<div id="galleyFive_Discovery" class="col-md-4 wow fadeInUp one " title="Discovery Channel Digital">
+				<div class="imgWrap">
+		<img class="workThumb" src="img/portfolio/discovery_digital.jpg"/>
+		<div class="title"><h1 class="newcenter">DISCOVERY CHANNEL DIGITAL</h1></div>
+</div>
+	<h4 class="mobileOnly">Discovery Channel Digital</h4>
+</div>
+
+<div id="galleySix_CapitolCrossing" class="col-md-4 wow fadeInUp one " title="Capitol Crossing Development">
+				<div class="imgWrap">
+		<img class="workThumb" src="img/portfolio/capitol_crossing.jpg"/>
+		<div class="title"><h1 class="newcenter">CAPITOL CROSSING DEVELOPMENT</h1></div>
+</div>
+	<h4 class="mobileOnly">Capitol Crossing Development</h4>
+</div>
+
+
+<div id="galleySeven_Discovery" class="col-md-4 wow fadeInUp two " title="Discovery Channel Branded Entertainment">
+				<div class="imgWrap">
+		<img class="workThumb" src="img/portfolio/discovery_branded.jpg"/>
+		<div class="title"><h1 class="newcenter">DISCOVERY CHANNEL BRANDED ENTERTAINMENT</h1></div>
+</div>
+	<h4 class="mobileOnly">Discovery Channel Branded Entertainment</h4>
+</div>
+
+<div id="galleyEight_ManufacturingInstitute" class="col-md-4 wow fadeInUp two " title="Manufacturing Institute">
+				<div class="imgWrap">
+		<img class="workThumb" src="img/portfolio/manufacturing.jpg"/>
+		<div class="title"><h1 class="newcenter">MANUFACTURING INSTITUTE</h1></div>
+</div>
+	<h4 class="mobileOnly">Manufacturing Institute</h4>
+</div>
+
+<div id="galleyNine_Discovery" class="col-md-4 wow fadeInUp two " title="Discovery Communications">
+				<div class="imgWrap">
+		<img class="workThumb" src="img/portfolio/discovery_communications.jpg"/>
+		<div class="title"><h1 class="newcenter">DISCOVERY COMMUNICATIONS</h1></div>
+</div>
+	<h4 class="mobileOnly">Discovery Communications</h4>
+</div>
+
 
 </div>
 
@@ -225,66 +225,55 @@
 
 		<h1 class="col-md-12 head">Advertising</h1>
 
-		<div class="col-md-4 wow fadeInUp " title="Mazda">
+		<div id="galleyTen_Mazda" class="col-md-4 wow fadeInUp " title="Mazda">
 						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=tAsHCN7yQt8">
 				<img class="workThumb" src="img/advertising/mazda.jpg"/>
 				<div class="title"><h1 class="newcenter">MAZDA</h1></div>
-			</a>
 		</div>
 			<h4 class="mobileOnly">Mazda</h4>
 		</div>
 
-		<div class="col-md-4 wow fadeInUp " title="Serta">
+
+		<div id="galleyEleven_Serta" class="col-md-4 wow fadeInUp " title="Serta">
 						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=svNg8KvaC4w">
 				<img class="workThumb" src="img/advertising/serta.jpg"/>
 				<div class="title"><h1 class="newcenter">SERTA</h1></div>
-			</a>
 		</div>
 			<h4 class="mobileOnly">Serta</h4>
 		</div>
 
-
-		<div class="col-md-4 wow fadeInUp " title="Six Flags">
+		<div id="galleyTwelve_SixFlags" class="col-md-4 wow fadeInUp " title="Six Flags">
 						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=t17bzAInKx8">
 				<img class="workThumb" src="img/advertising/six_flags.jpg"/>
 				<div class="title"><h1 class="newcenter">SIX FLAGS</h1></div>
-			</a>
 		</div>
 			<h4 class="mobileOnly">Six Flags</h4>
 		</div>
 
-		<div class="col-md-4 wow fadeInUp one" title="Hotels.com">
+		<div id="galleyThirteen_Hotels" class="col-md-4 wow fadeInUp one" title="Hotels.com">
 						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=-UYRLcJz0ns">
 				<img class="workThumb" src="img/advertising/hotels.jpg"/>
 				<div class="title"><h1 class="newcenter">HOTELS.COM</h1></div>
-			</a>
 		</div>
 			<h4 class="mobileOnly">Hotels.com</h4>
 		</div>
 
-		<div class="col-md-4 wow fadeInUp one " title="Travel Channel">
+		<div id="galleyFourteen_Travel" class="col-md-4 wow fadeInUp one " title="Travel Channel">
 						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=grTkz9BSsDc">
 				<img class="workThumb" src="img/advertising/travel.jpg"/>
 				<div class="title"><h1 class="newcenter">TRAVEL CHANNEL</h1></div>
-			</a>
 		</div>
 			<h4 class="mobileOnly">Travel Channel</h4>
 		</div>
 
-		<div class="col-md-4 wow fadeInUp one" title="Expedia">
+		<div id="galleyFifteen_Expedia" class="col-md-4 wow fadeInUp one" title="Expedia">
 						<div class="imgWrap">
-			<a href="https://www.youtube.com/watch?v=ignLk1Db8CU">
 				<img class="workThumb" src="img/advertising/expedia.jpg"/>
 				<div class="title"><h1 class="newcenter">EXPEDIA</h1></div>
-			</a>
 		</div>
 			<h4 class="mobileOnly">Expedia</h4>
 		</div>
+
 
 	</div>
 
@@ -315,30 +304,270 @@
 
 	//===================================================================================
 
-	"use strict";
-
-	$(document).ready(function () {
-
-		//each video has need its own instance of modalVideoOptions
-		$('a[href]').each(function(){
-			$(this).modalvideo(new ModalVideoOptions());
-		});
-	});
-</script>
-<script type="text/javascript">
-
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-36251023-1']);
-_gaq.push(['_setDomainName', 'jqueryscript.net']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
 
 </script>
+
+<script>
+//WORK
+
+$('#galleyOne_Marriot').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=9c3gMJLXDRs',
+			type: 'iframe' // this overrides default type
+		},
+		{
+			src: 'https://www.youtube.com/watch?v=YzzJJr-rcRU', // Dynamically created element
+			type: 'iframe'
+		},
+
+		{
+			src: 'https://www.youtube.com/watch?v=MGvOwq6d9rI',
+			type: 'iframe' // this overrides default type
+		},
+
+		{
+			src: 'https://www.youtube.com/watch?v=Z_-wR9R5vTw',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+	gallery: {
+		enabled: true
+	},
+	type: 'iframe' // this is a default type
+});
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyTwo_Discovery').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=MpJ0u4BSXp0',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyThree_ChannelCommunications').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=5G8410a2iX8',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyFour_Ideacast').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=Bvxf_5BvH1U',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyFive_Discovery').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=tAAiRQWVdoY',
+			type: 'iframe' // this overrides default type
+		},
+		{
+			src: 'https://www.youtube.com/watch?v=TzuvmKtjCtE',
+			type: 'iframe'
+		},
+
+		{
+			src: 'https://www.youtube.com/watch?v=4XykpNL_Tgw',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+	gallery: {
+		enabled: true
+	},
+	type: 'iframe' // this is a default type
+});
+//------------------------------------------------------------------------------------------------------
+
+$('#galleySix_CapitolCrossing').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=R79TA_nVzNQ',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleySeven_Discovery').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?time_continue=1&v=BKzibVER7WA',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyEight_ManufacturingInstitute').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=mBLLWE2WIq8',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyNine_Discovery').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=C1BFpYJzXpc',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//ADVERTISING
+
+$('#galleyTen_Mazda').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=tAsHCN7yQt8',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyEleven_Serta').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=svNg8KvaC4w',
+			type: 'iframe' // this overrides default type
+		},
+		{
+			src: 'https://www.youtube.com/watch?v=UISHeJB0Lqs',
+			type: 'iframe'
+		}
+
+	],
+	gallery: {
+		enabled: true
+	},
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyTwelve_SixFlags').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=t17bzAInKx8',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyThirteen_Hotels').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=-UYRLcJz0ns',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyFourteen_Travel').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=grTkz9BSsDc',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+//------------------------------------------------------------------------------------------------------
+
+$('#galleyFifteen_Expedia').magnificPopup({
+	items: [
+
+		{
+			src: 'https://www.youtube.com/watch?v=ignLk1Db8CU',
+			type: 'iframe' // this overrides default type
+		}
+
+	],
+
+	type: 'iframe' // this is a default type
+});
+
+
+</script>
+
+
 
 </body>
 </html>
